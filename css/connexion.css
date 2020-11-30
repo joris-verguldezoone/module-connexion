@@ -1,0 +1,20 @@
+.main_connexion {
+    background-image: url('../images/fight.jpg');
+    /*background*/
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+}
+
+.deco_main[type=submit] {
+    /*deco bouton*/
+    padding: 20px 15px;
+    background: rgb(29, 128, 45);
+    border: 0 none;
+    cursor: pointer;
+    border-radius: 1em;
+    color: white;
+    min-width: 10vh;
+}

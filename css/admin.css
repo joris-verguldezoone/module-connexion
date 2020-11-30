@@ -1,0 +1,48 @@
+.main_admin {
+    background-image: url('../images/spider.jpg');
+    /*background*/
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position-y: 25%;
+    background-position-x: left;
+    flex-direction: column;
+    background-size: 100%;
+}
+
+.tableau_admin {
+    border-collapse: collapse;
+    border: 1px black solid;
+    padding: 10px;
+}
+
+table {
+    background-color: rgba(128, 128, 128, 0.4);
+    box-shadow: 2px 2px 2px black;
+}
+
+#right {
+    /*section*/
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    flex-direction: row-reverse;
+    align-items: flex-end;
+    margin-bottom: 1%;
+}
+
+#gif_size {
+    width: 250px;
+    height: 200px;
+    box-shadow: 2px 2px 2px black;
+    border-radius: 0.5em;
+    margin-bottom: 10%;
+}
+
+#left {
+    /*section*/
+    display: flex;
+    width: 90%;
+    justify-content: start;
+}
